@@ -1,6 +1,7 @@
 body {
     background-image: url(../src/Images/CoffeeBeans.jpg);
     font-family: sans-serif;
+    padding: 20px;
 }
 .established{
     font-style: italic;
@@ -22,6 +23,9 @@ hr{
     background-color: brown;
     border-color: brown;
 }
+.bottom-line{
+    margin-top: 25px;
+}
 .menu {
     width: 80%;
     background-color: burlywood;
@@ -31,7 +35,10 @@ hr{
     max-width: 500px;
 }
 .item p {
+    font-size: 18px;
     display: inline-block;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 .flavor, .dessert{
     text-align: left;
@@ -41,4 +48,18 @@ hr{
 .price {
     text-align: right;
     width: 10%;
+}
+
+/* Footer */
+footer{
+    font-size: 14px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    cursor: pointer;
 }
