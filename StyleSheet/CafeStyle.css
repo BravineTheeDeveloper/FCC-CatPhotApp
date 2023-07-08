@@ -1,13 +1,11 @@
-body
-{
-    background-color: burlywood;
+body {
+    /* background-color: burlywood; */
 }
 
-h1, h2, p
-{
+h1, h2, p {
     text-align: center;
 }
-div
-{
-    width: 300px;
+div {
+    width: 80%;
+    background-color: burlywood;
 }
