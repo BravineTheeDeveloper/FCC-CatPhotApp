@@ -1,9 +1,13 @@
 body
 {
-    background-color: rgb(222, 136, 136);
+    background-color: burlywood;
 }
 
 h1, h2, p
 {
     text-align: center;
+}
+div
+{
+    width: 300px;
 }
