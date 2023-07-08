@@ -43,8 +43,13 @@
         <h2>Cat Form</h2>
         <form>
             <fieldset>
-                <label><Input id="indoor" type="radio" name="indoor-outdoor" value="indoor"></Input>Indoor</label><br>
-                <label><Input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"></Input>Outdoor</label><br><br>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><Input id="indoor" type="radio" name="indoor-outdoor" value="indoor"></Input>Indoor</label>
+                <label><Input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"></Input>Outdoor</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
             </fieldset>
                 <input form="text" name="catphotourl" placeholder="Cat Photo URL" required>
                 <button type="submit">Submit</button>
