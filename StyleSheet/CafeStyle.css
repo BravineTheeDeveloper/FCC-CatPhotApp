@@ -1,5 +1,5 @@
 body {
-    /* background-color: burlywood; */
+    background-image: url(../src/Images/CoffeeBeans.jpg);
 }
 
 h1, h2, p {
@@ -10,4 +10,15 @@ div {
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+}
+.item p {
+    display: inline-block;
+}
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 10%;
 }
