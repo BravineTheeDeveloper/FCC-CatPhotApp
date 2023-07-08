@@ -2,7 +2,12 @@ body {
     background-image: url(../src/Images/CoffeeBeans.jpg);
     font-family: sans-serif;
 }
-
+.established{
+    font-style: italic;
+}
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 h1, h2, p {
     text-align: center;
 }
